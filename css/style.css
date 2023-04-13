@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 10px;
+    background-color: #78e08f;
+}
+.logo_top{
+    display: flex;
+}
+.logo{width: 34%;}
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+.title_content{
+    text-align: center;
+}
+hr{
+    border: 1px solid black;
+}
+
+.head_info{
+    display: flex;
+}
+.info_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:70%;
+}
+.report_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.report_name button{
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    background-color: #b8e994;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.report_name a{
+   margin-top: 0;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+}
+span{
+    margin-left: 20px;
+}
+.student_info{
+    width: 70%;
+}
+
+.table_grade{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0;
+   
+}
+
+
+
+#footer_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+.signature{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0;
+}
+
+.sign_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
